@@ -112,6 +112,11 @@ td{
   padding: 16px;
   border-bottom: 1px solid #e0e4e5;
 }
+.action-buttons {
+  display: flex;
+  gap: 5px;
+  justify-content: flex-end;
+}
 
 
 
