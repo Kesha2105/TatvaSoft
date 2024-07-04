@@ -1,0 +1,11 @@
+<form (ngSubmit)="onSubmit()" class="position-absolute top-50 start-50 translate-middle w-50">
+    <div class="mb-3">
+        <label for="exampleInputEmail" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" ngDefaultControl [(ngModel)]="email" [ngModelOptions]="{standalone: true}">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPassword" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword" [(ngModel)]="password" ngDefaultControl [ngModelOptions]="{standalone: true}">
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>
